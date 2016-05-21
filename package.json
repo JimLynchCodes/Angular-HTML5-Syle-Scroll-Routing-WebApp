@@ -1,7 +1,10 @@
 {
   "name": "html5Scroll",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "gsap": "^1.18.4",
+    "jquery.scrollto": "^2.1.2"
+  },
   "scripts": {
     "test": "gulp test"
   },

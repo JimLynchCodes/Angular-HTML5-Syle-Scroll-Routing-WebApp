@@ -4,19 +4,54 @@
     <acme-navbar creation-date="main.creationDate"></acme-navbar>
   </div>
 
-  <div class="jumbotron text-center">
-    <h1>'Allo, 'Allo!</h1>
+  <button ng-click="main.scrollTo('hey-there-text')">Scroll to the Hey, You Made It Section</button>
+  <button ng-click="main.scrollTo('works-nicely-text')">Scroll to the Works Nicely Section</button>
+
+  <br>
+  <br>
+  <span class="center-main-text">
+
+  <h1><i>Go Ahead, Click The Buttons!</i></h1>
+  </span>
+
+  <div class="empty-space"></div>
+
+  <div id="scrollRoute1" class="text-center">
+    <h1>Hey There!</h1>
     <p class="lead">
       <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
+        This started from the Gulp-Angular generator (Jim's all-time favorite Angular 1 generator)!
     </p>
     <p class="animated infinite" ng-class="main.classAnimation">
-      <button type="button" class="btn btn-lg btn-success" ng-click="main.showToastr()">Splendid Toastr</button>
-    </p>
-    <p>
-      With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>
     </p>
   </div>
+
+  <div class="empty-space"></div>
+
+  <div id="scrollRoute2" class="text-center">
+    <h1>Holla!</h1>
+    <p class="lead">
+      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
+      Always a pleasure chillin' in your apps.
+    </p>
+    <p class="animated infinite" ng-class="main.classAnimation">
+      <button type="button" class="btn btn-lg btn-success" ng-click="main.showToastr()">Splendid Day Today, Jimmy!</button>
+    </p>
+    <p>
+      Jim is very
+      <acme-malarkey extra-values="['Cool', 'Interesting', 'Funny', 'Intelligent', 'Dorky']"></acme-malarkey>
+    </p>
+  </div>
+
+
+<br>
+
+  <div class="center-main-text" >
+    <h1 id="hey-there-text">Hey, You Finally Made It Here! :)</h1>
+  </div>
+
+  <br>
+
 
   <div class="row">
     <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
@@ -31,4 +66,16 @@
     </div>
   </div>
 
+
+  <div class="center-main-text" >
+    <h1 id="works-nicely-text">Works Pretty Nicely, Eh?</h1>
+  <div class="empty-space"></div>
+
+  <div class="empty-space"></div>
+
+  <div class="empty-space"></div>
+
+  <p>Yeah buddy!</p>
+
+  </div>
 </div>
