@@ -1,5 +1,7 @@
 # Angular-HTML5-Syle-Scroll-Routing-WebApp
 
+This app can be viewed live here: http://jimtheman.github.io/Angular-HTML5-Syle-Scroll-Routing-WebApp/#/
+
 The term "Single page application" is a little bit misleading because they can have different views swapped out which are connected to the back / forward buttons in the browser. This can give the impression that the user is navigating through pages, and in Angular it is normally accomplished through the "router". 
 
 However, there is another website navigation structure out there in the wild, and this one does not make use of routers of pages. This other style is a "truly single page" website where the buttons in top navigation bar make the window autoscroll to the appropriate spot in the page.
